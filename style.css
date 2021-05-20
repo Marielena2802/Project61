@@ -1,0 +1,105 @@
+img {
+    height: 100px;
+    width: 150px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    padding: 10px;
+    transition: transform .2s;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(white 0%, black 100%);
+}
+
+#welcome {
+    width: 100%;
+    height: 800px;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+.menu {
+    list-style: none;
+    top: 10px;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10; 
+}
+
+li {
+    float: left;
+    color: black;
+    display: inline;
+    font-size: 30px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+li:hover {
+    background-color: black;
+    font-weight: bold;
+    font size: 32px;
+    color: white;
+    
+    
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+p {
+    color: azure;
+}
+
+#welcome img{
+    margin-top: 200px;
+    border-radius: 45%
+    
+}
+
+#games{
+    background: linear-gradient(white 0%, purple 100%);
+    height: 600px;
+}
+
+#apps{
+    background: linear-gradient(white 0%, blue 100%);
+}
+
+#chatbots{
+    background: linear-gradient(white 0%, green 100%);
+}
+
+#games img{
+    margin: 45px;
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+img:hover{
+    transform: scale(1.4) 
+}
+
+#contacts iframe{
+    width: 100%;
+}
+
+.contact1 h3{
+    display:inline;
+}
+
+.contact1{
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}
+
